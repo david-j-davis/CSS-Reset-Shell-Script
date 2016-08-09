@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #A shell script for retreiving a reset for any css attribute
+echo "Enter a css attribute to find the reset (ie. background). press 'q' to quit:"
 while true
 do
-  read -p  "Enter a css attribute to find the reset (ie. background). press 'q' to quit:" answer
+  read -p  "Attribute: " answer
   case $answer in
     "animation")
     echo "none"
