@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#My shell script for getting your project started faster
+#A shell script for retreiving a reset for any css attribute
 while true
 do
-  read -p  "Enter a css selector to find the reset (ie. background). press 'q' to quit:" answer
+  read -p  "Enter a css attribute to find the reset (ie. background). press 'q' to quit:" answer
   case $answer in
     "animation")
     echo "none"
